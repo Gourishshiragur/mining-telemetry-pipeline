@@ -2,7 +2,7 @@ dbutils.widgets.text("env", "dev")
 env = dbutils.widgets.get("env")
 
 if env == "dev":
-    base_path = "dbfs:/FileStore"
+    base_path = "/Volumes/main/default/telemetry_vol/"
 else:
     base_path = "abfss://mining@storageaccount.dfs.core.windows.net"
 
