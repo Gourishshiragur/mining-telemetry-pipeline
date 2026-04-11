@@ -1,14 +1,11 @@
+# databricks.yml
+
 bundle:
   name: mining_pipeline_bundle
 
-targets:
-  dev:
-    workspace:
-      host: https://adb-xxxx.azuredatabricks.net
-
 resources:
   jobs:
-    mining_pipeline_job:
+    mining_job:
       name: mining_pipeline_job
       tasks:
         - task_key: bronze

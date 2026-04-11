@@ -1,0 +1,12 @@
+[
+  {
+    "truck_id": "T001",
+    "log_time": "2024-01-01T10:00:00",
+    "event": "ENGINE_START"
+  },
+  {
+    "truck_id": "T002",
+    "log_time": "2024-01-01T10:05:00",
+    "event": "IDLE"
+  }
+]

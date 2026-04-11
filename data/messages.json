@@ -1,0 +1,42 @@
+[
+  {
+    "truck_id": "T001",
+    "driver_id": "D101",
+    "event_time": "2024-01-01T10:00:00",
+    "speed": 45,
+    "fuel": 60,
+    "location": "Site-A"
+  },
+  {
+    "truck_id": "T001",
+    "driver_id": "D101",
+    "event_time": "2024-01-01T10:05:00",
+    "speed": 50,
+    "fuel": 58,
+    "location": "Site-A"
+  },
+  {
+    "truck_id": "T002",
+    "driver_id": "D102",
+    "event_time": "2024-01-01T10:02:00",
+    "speed": 40,
+    "fuel": 65,
+    "location": "Site-B"
+  },
+  {
+    "truck_id": "T002",
+    "driver_id": "D103",
+    "event_time": "2024-01-01T10:10:00",
+    "speed": 42,
+    "fuel": 63,
+    "location": "Site-B"
+  },
+  {
+    "truck_id": "T003",
+    "driver_id": "D104",
+    "event_time": "2024-01-01T10:15:00",
+    "speed": 55,
+    "fuel": -5,
+    "location": "Site-C"
+  }
+]

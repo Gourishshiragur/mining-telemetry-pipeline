@@ -1,0 +1,15 @@
+{
+  "name": "dynamic_mining_pipeline",
+  "activities": [
+    {
+      "name": "ForEach_Customer",
+      "type": "ForEach",
+      "activities": [
+        {
+          "name": "Run_Databricks",
+          "type": "DatabricksNotebook"
+        }
+      ]
+    }
+  ]
+}
